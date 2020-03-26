@@ -6,8 +6,8 @@ public abstract class Handler {
 	public Handler(String Name) {
 		this.Name = Name;
 	}
-	public abstract void ProcessRequest(Request request);
-	public void SetSuccessor(Handler successor){
+	public abstract void processRequest(Request request);
+	public void setSuccessor(Handler successor){
 		this.successor = successor;
 	}
 }
